@@ -1,9 +1,13 @@
 body{
-    margin: 200px;
+    margin-top: 200px;
+    text-align: center;
 }
 img{
     display: block;
     margin-bottom: 50px;
+    margin: 0px auto 50px;
+    /* width: 190px; */
+    height: 290px;
 }
 button{
     margin-left: 20px;
