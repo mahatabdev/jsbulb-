@@ -1,0 +1,21 @@
+body{
+    margin: 200px;
+}
+img{
+    display: block;
+    margin-bottom: 50px;
+}
+button{
+    margin-left: 20px;
+    padding: 10px;
+    font-size: 20px;
+}
+#onBtn {
+    color: white;
+    background-color: coral;
+}
+#ofBtn {
+    color: black;
+    background-color: cyan;
+}
+
