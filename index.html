@@ -1,17 +1,52 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bulb</title>
-    <link rel="stylesheet" href="./assets/css/style.css">
-</head>
-<body>
-    <img src="./assets/image/lightof.jpeg" alt="" id="img">
-    <button id="onBtn">On</button>
-    <button id="ofBtn">Of</button>
-    
 
-    <script src="./assets/js/app.js"></script>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Bulb</title>
+  <link rel="stylesheet" href="./assets/css/bootstrap.css">
+  <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+
+<body>
+
+  <section id="practice">
+    <div class="container">
+      <div class="row">
+        <div class="light">
+          <h2>Bulb switch</h2>
+          <img src="./assets/image/lightof.jpeg" alt="" id="img" class="img-fluid">
+          <button id="onBtn">On</button>
+          <button id="ofBtn">Of</button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="ludu">
+          <h2>Ludu</h2>
+          <img src="assets/image/1.png" alt="ludu loading" id="ludu">
+          <button id="dice">
+            Roll Dice
+          </button>
+        </div>
+      </div>
+      <div class="row">
+        <div class="input-field">
+          <h2>Number Checker</h2>
+          <input type="number" id="input" value="" placeholder="Enter a Number">
+          <button id="btn"> check</button>
+          <h3 id="result"></h3>
+        </div>
+      </div>
+    </div>
+
+
+
+
+  </section>
+
+  <script src="./assets/js/bootstrap.bundle.js"></script>
+  <script src="./assets/js/app.js"></script>
 </body>
+
 </html>

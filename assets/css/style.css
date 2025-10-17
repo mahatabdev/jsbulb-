@@ -1,26 +1,117 @@
-body{
-    margin-top: 200px;
-    margin-bottom: 200px;
-    text-align: center;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+
+    body::-webkit-scrollbar {
+        display: none;
+    }
 }
-img{
+
+
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+span {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul,
+ol {
+    list-style: none;
+}
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+h2{
+    font-size: 40px;
+    text-decoration: underline;
+}
+.light {
+    text-align: center;
+    margin-top: 100px;
+}
+
+.light img{
     display: block;
-    margin-bottom: 50px;
-    margin: 0px auto 50px;
+    margin: 50px auto 50px; 
     /* width: 190px; */
     height: 290px;
 }
 button{
-    margin-left: 20px;
-    padding: 10px;
+    padding: 15px 35px;
     font-size: 20px;
+    border-radius: 10px;
+}
+#onBtn:hover,
+#ofBtn:hover,
+#dice:hover,
+.input-field #btn:hover{
+    color: black;
+    background-color: bisque;
 }
 #onBtn {
+    margin-right: 20px;
+    color: black;
+    background-color: cyan;
+}
+#ofBtn {
+    margin-left: 20px;
     color: white;
     background-color: coral;
 }
-#ofBtn {
-    color: black;
-    background-color: cyan;
+/* ending bulb */
+.ludu{
+    margin-top: 100px;
+    text-align: center;
+}
+.ludu img{
+    width: 250px;
+    display: block;
+    margin: 40px auto;
+}
+#dice{
+    color: azure;
+    background-color: rgba(0, 252, 172, 0.92);
+    font-size: 22px;
+}
+/* ending ludu */
+.input-field{
+    margin-top: 100px;
+    margin-bottom: 100px;
+    text-align: center;
+}
+.input-field input{
+    display: block;
+    margin: 30px auto;
+    /* padding: 100px auto; */
+    height: 40px;
+    width: 250px;
+    border-radius: 10px;
+    text-align: center;
+}
+.input-field input::placeholder{
+    font-size: 20px;
+    color: rgb(84, 49, 7);
+}
+.input-field #btn{
+    padding: 12px 45px;
+    background-color: rgba(255, 0, 0, 0.632);
 }
 
